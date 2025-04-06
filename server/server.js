@@ -31,6 +31,10 @@ app.use("/api/staff", staffRoutes);
 app.use("/api/appointments", appointmentRoutes);
 app.use("/api/billing", billingRoutes);
 
+app.use("/", (req, res)=> {
+   console.log("server ok")
+})
+
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);

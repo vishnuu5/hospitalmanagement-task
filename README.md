@@ -4,9 +4,9 @@ A modern and responsive full-stack **Hospital Management System** built with **R
 
 ## 🚀 Live Demo
 
-🔗 [View Deployed Application](https://your-deployed-link.com)
+🔗 [View Deployed Application](https://hospitalmanagement-task.vercel.app)
 
-📽️ [Watch Video Walkthrough](https://your-video-link.com)
+📽️ [Watch Video Walkthrough](https://github.com/user-attachments/assets/2cea3669-5ab2-435b-8ecd-97e0117f9552)
 
 ---
 
@@ -70,5 +70,24 @@ A modern and responsive full-stack **Hospital Management System** built with **R
 git clone https://github.com/vishnuu5/hospitalmanagement-task.git
 cd hospital-dashboard
 ```
+### 2. frontend & Backend installation
+```bash
+npm install
+```
+
+### 3. Create a .env file for the backend 
+```bash
+PORT=5000
+MONGO_URI=------
+JWT_SECRET=wjnn4r040jru42jonfjoewnjn
+NODE_ENV=development
+```
+
+### 4. Start server & frontend
+```bash
+npm run dev
+```
+
+
 
 

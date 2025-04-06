@@ -4,9 +4,9 @@ A modern and responsive full-stack **Hospital Management System** built with **R
 
 ## 🚀 Live Demo
 
-🔗 [View Deployed Application](https://hospitalmanagement-task.vercel.app)
+🔗 [View Deployed Application](https://hospitalmanagement-task.vercel.app){:target="_blank"}
 
-📽️ [Watch Video Walkthrough](https://github.com/user-attachments/assets/2cea3669-5ab2-435b-8ecd-97e0117f9552)
+📽️ [Watch Video Walkthrough](https://github.com/user-attachments/assets/2cea3669-5ab2-435b-8ecd-97e0117f9552){:target="_blank"}
 
 ---
 

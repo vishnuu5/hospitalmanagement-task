@@ -24,7 +24,7 @@ export function AuthProvider({ children }) {
                     axios.defaults.headers.common["Authorization"] = `Bearer ${token}`
 
                     // Verify token with backend
-                    const response = await axios.get(`${API_URL}/auth/verify`)
+                    const response = await axios.get(`${API_URL}/api/auth/verify`)
                     setUser(response.data.user)
                 }
             } catch (error) {
@@ -44,7 +44,7 @@ export function AuthProvider({ children }) {
         setError(null)
 
         try {
-            const response = await axios.post(`${API_URL}/auth/login`, {
+            const response = await axios.post(`${API_URL}/api/auth/login`, {
                 email,
                 password,
             })
@@ -70,7 +70,7 @@ export function AuthProvider({ children }) {
         setError(null)
 
         try {
-            const response = await axios.post(`${API_URL}/auth/register`, userData)
+            const response = await axios.post(`${API_URL}/api/auth/register`, userData)
             return response.data
         } catch (error) {
             setError(error.response?.data?.message || "Registration failed")
